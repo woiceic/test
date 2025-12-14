@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5 API Test Suite</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">HTML5 APIs</div>
+            <ul class="nav-links">
+                <!-- Navigation items will be injected by JS or hardcoded -->
+                <li data-target="media-upload">Media Upload</li>
+                <li data-target="recorder-camera">Recorder & Camera</li>
+                <li data-target="clipboard">Clipboard</li>
+                <li data-target="location">Location</li>
+                <li data-target="screen-recorder">Screen Recorder</li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <main id="app-content">
+        <div class="welcome-message">
+            <h1>Welcome to HTML5 API Test Suite</h1>
+            <p>Select an API from the menu to begin testing.</p>
+        </div>
+    </main>
+
+    <script type="module" src="js/app.js"></script>
+</body>
+</html>
